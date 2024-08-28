@@ -3,13 +3,13 @@ export const categories =[
         name:"Пиццы"
     },
     {
-        name:"Комбо"
+        name:"Завтрак"
     },
     {
-        name:"Салаты"
+        name:"Закуски"
     },
     {
-        name:"Десерты"
+        name:"Коктейли"
     },
     {
         name:"Напитки"
@@ -18,7 +18,7 @@ export const categories =[
         name:"Суши"
     },
     {
-        name:"Закуски"
+        name:"Комбо"
     },
 ];
 

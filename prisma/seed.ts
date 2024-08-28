@@ -81,9 +81,9 @@ async function up() {
 
   const pizza3 = await prisma.product.create({
     data: {
-      name: "Пепперони",
+      name: "Баварская",
       imageUrl:
-        "https://www.iqpizza.com.ua/_next/image?url=https%3A%2F%2Fiq-pizza.eatery.club%2Fstorage%2Fiq-pizza%2Fproduct%2Ficon%2F35978%2Fconversions%2Ftext-optimized.jpg&w=1080&q=75",
+        "https://www.iqpizza.com.ua/_next/image?url=https%3A%2F%2Fiq-pizza.eatery.club%2Fstorage%2Fiq-pizza%2Fproduct%2Ficon%2F41955%2Fconversions%2Ftext-optimized.jpg&w=1080&q=75",
       categoryId: 1,
       ingredients: {
         connect: _ingredients.slice(10, 40),
